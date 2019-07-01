@@ -14,8 +14,7 @@ def better_than_average(arr, points)
 # Refactor: How to add element to array? Methods to find a sum of array. 
 average = arr.push(points).reduce(:+)/(arr.length + 1)
 # 2. Compare my score with an average, Return True if I'm better, else False!
-puts average
-puts points > average
+points > average
   end
 
   better_than_average([2, 3], 5)
